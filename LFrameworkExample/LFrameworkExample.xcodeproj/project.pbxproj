@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B3759CFD193DA9AC00C05BBA /* Ubuntu-Title.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3759CFC193DA9AC00C05BBA /* Ubuntu-Title.ttf */; };
+		B3B97E98194981B50034BC97 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B97E97194981B50034BC97 /* MessageUI.framework */; };
 		B3C31E441936E37100FC2C8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C31E431936E37100FC2C8E /* Foundation.framework */; };
 		B3C31E461936E37100FC2C8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C31E451936E37100FC2C8E /* CoreGraphics.framework */; };
 		B3C31E481936E37100FC2C8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C31E471936E37100FC2C8E /* UIKit.framework */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		B3759CFC193DA9AC00C05BBA /* Ubuntu-Title.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Title.ttf"; sourceTree = "<group>"; };
+		B3B97E97194981B50034BC97 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		B3C31E401936E37100FC2C8E /* LFrameworkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFrameworkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C31E431936E37100FC2C8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3C31E451936E37100FC2C8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B97E98194981B50034BC97 /* MessageUI.framework in Frameworks */,
 				B3C31E461936E37100FC2C8E /* CoreGraphics.framework in Frameworks */,
 				B3C31E481936E37100FC2C8E /* UIKit.framework in Frameworks */,
 				B3C31E441936E37100FC2C8E /* Foundation.framework in Frameworks */,
@@ -121,6 +124,7 @@
 		B3C31E421936E37100FC2C8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3B97E97194981B50034BC97 /* MessageUI.framework */,
 				B3C31E431936E37100FC2C8E /* Foundation.framework */,
 				B3C31E451936E37100FC2C8E /* CoreGraphics.framework */,
 				B3C31E471936E37100FC2C8E /* UIKit.framework */,
